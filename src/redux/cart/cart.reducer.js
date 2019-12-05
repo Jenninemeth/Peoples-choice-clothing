@@ -8,15 +8,16 @@ const INITIAL_STATE = {
 
 const cartReducer = (state = INITIAL_STATE, action) => {
     switch (action.type) {
+        //toggle cart
         case CartActionTypes.TOGGLE_CART_HIDDEN:
             return {
                 ...state,
                 hidden: !state.hidden
             };
+        //reload current cart items and add new item to cart
         case CartActionTypes.ADD_ITEM:
             return {
                 ...state,
-                //reload current cart items and add new item to cart
                 cartItems: addItemToCart(state.cartItems, action.payload)
             };
             default:
