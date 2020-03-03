@@ -1,36 +1,44 @@
 const INITIAL_STATE = {
   sections: [
     {
-      title: 'hats',
-      imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+      title: 'tops',
+      imageUrl: 'https://www.lulus.com/images/product/xlarge/3078440_485812.jpg?w=560',
+      size: 'large',
       id: 1,
-      linkUrl: 'shop/hats'
+      linkUrl: 'shop/tops'
     },
     {
       title: 'jackets',
-      imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+      imageUrl: 'https://i.pinimg.com/564x/7d/c4/03/7dc40359cd52efd243173296d86f4595.jpg',
+      size: 'large',
       id: 2,
       linkUrl: 'shop/jackets'
     },
     {
-      title: 'sneakers',
-      imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+      title: 'jeans',
+      imageUrl: 'https://i.ibb.co/2cqSXX0/jeans-cover-01-01.jpg',
+      size: 'featured',
       id: 3,
-      linkUrl: 'shop/sneakers'
+      linkUrl: 'shop/jeans'
+      
     },
     {
-      title: 'womens',
-      imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
-      size: 'large',
+      title: 'hats',
+      imageUrl: 'https://i.ibb.co/4YJtp2L/hats-cover-02.jpg',
       id: 4,
-      linkUrl: 'shop/womens'
+      linkUrl: 'shop/hats'
     },
     {
-      title: 'mens',
-      imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
-      size: 'large',
+      title: 'accessories',
+      imageUrl: 'https://i.pinimg.com/564x/21/6b/71/216b7158b9df64f6ef437de8a77d7faa.jpg',
       id: 5,
-      linkUrl: 'shop/mens'
+      linkUrl: 'shop/accessories'
+    },
+    {
+      title: 'shoes',
+      imageUrl: 'https://i.pinimg.com/564x/14/94/a7/1494a7f23f08401847666666090dd2d7.jpg',
+      id: 6,
+      linkUrl: 'shop/shoes'
     }
   ]
 };

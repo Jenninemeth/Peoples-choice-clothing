@@ -1,246 +1,241 @@
 const SHOP_DATA = {
-  hats: {
+  tops: {
     id: 1,
-    title: 'Hats',
-    routeName: 'hats',
+    title: 'Tops',
+    routeName: 'tops',
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-        price: 25
+        name: 'Pleasant Suprise White Tee',
+        imageUrl: 'https://www.lulus.com/images/product/xlarge/3348500_174730.jpg?w=560',
+        price: 20
       },
       {
         id: 2,
-        name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-        price: 18
+        name: 'Newport Beach Grey and White Top',
+        imageUrl: 'https://www.lulus.com/images/product/xlarge/2614582_485812.jpg?w=560',
+        price: 45
       },
       {
         id: 3,
-        name: 'Brown Cowboy',
-        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-        price: 35
+        name: 'Peplum Top in Wildblooms',
+        imageUrl: 'https://i.s-madewell.com/is/image/madewell/AJ997_PP0345_m?wid=1400&hei=1779&fmt=jpeg&fit=crop&qlt=75,1&resMode=bisharp&op_usm=0.5,1,5,0',
+        price: 98
       },
       {
         id: 4,
-        name: 'Grey Brim',
-        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-        price: 25
+        name: 'Silk Button-Down Cami',
+        imageUrl: 'https://z1photorankmedia-a.akamaihd.net/media/z/a/j/zaju3h4/normal.jpg',
+        price: 54
       },
       {
         id: 5,
-        name: 'Green Beanie',
-        imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
-        price: 18
+        name: 'Puff-Sleeve Mockneck Top',
+        imageUrl: 'https://i.s-madewell.com/is/image/madewell/AI227_KA8986_m?wid=1400&hei=1779&fmt=jpeg&fit=crop&qlt=75,1&resMode=bisharp&op_usm=0.5,1,5,0',
+        price: 75
       },
       {
         id: 6,
-        name: 'Palm Tree Cap',
-        imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
-        price: 14
+        name: 'Renata Silk Blouse',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0767/5207/products/1068_Renata_Wild_Horses_1346_web_1186x1186.jpg?v=1582843255',
+        price: 48
       },
       {
         id: 7,
-        name: 'Red Beanie',
-        imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-        price: 18
-      },
-      {
-        id: 8,
-        name: 'Wolf Cap',
-        imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-        price: 14
+        name: 'Allister Pullover Sweater',
+        imageUrl: 'https://i.s-madewell.com/is/image/madewell/AI202_HT0174_m?wid=1400&hei=1779&fmt=jpeg&fit=crop&qlt=75,1&resMode=bisharp&op_usm=0.5,1,5,0',
+        price: 60
       },
       {
         id: 9,
-        name: 'Blue Snapback',
-        imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-        price: 16
-      }
-    ]
-  },
-  sneakers: {
-    id: 2,
-    title: 'Sneakers',
-    routeName: 'sneakers',
-    items: [
-      {
-        id: 10,
-        name: 'Adidas NMD',
-        imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-        price: 220
-      },
-      {
-        id: 11,
-        name: 'Adidas Yeezy',
-        imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
-        price: 280
-      },
-      {
-        id: 12,
-        name: 'Black Converse',
-        imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-        price: 110
-      },
-      {
-        id: 13,
-        name: 'Nike White AirForce',
-        imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-        price: 160
-      },
-      {
-        id: 14,
-        name: 'Nike Red High Tops',
-        imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
-        price: 160
-      },
-      {
-        id: 15,
-        name: 'Nike Brown High Tops',
-        imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
-        price: 160
-      },
-      {
-        id: 16,
-        name: 'Air Jordan Limited',
-        imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
-        price: 190
-      },
-      {
-        id: 17,
-        name: 'Timberlands',
-        imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
-        price: 200
+        name: 'Amy Silk Blouse',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0767/5207/products/9369_Amy_Tencel_Gallery_2533_web_1186x1186.jpg?v=1580428757',
+        price: 38
       }
     ]
   },
   jackets: {
-    id: 3,
+    id: 2,
     title: 'Jackets',
     routeName: 'jackets',
     items: [
       {
+        id: 10,
+        name: 'Levis Trucker Sherpa Jacket',
+        imageUrl: 'https://target.scene7.com/is/image/Target/GUEST_bcbd2767-321b-431d-a536-f7fde4f82244?wid=488&hei=488&fmt=pjpeg',
+        price: 98
+      },
+      {
+        id: 11,
+        name: 'Albion Black Bomber Jacket',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0902/1640/products/black_bomber-jacket6_2000x.jpg?v=1583169987',
+        price: 88
+      },
+      {
+        id: 12,
+        name: 'Madewell Washed Leather Moto Jacket',
+        imageUrl: 'https://images.prod.meredith.com/product/80fce077b73173726003404161995e39/1548990412806/l/madewell-washed-leather-moto-jacket',
+        price: 348
+      },
+      {
+        id: 13,
+        name: 'Urban Outfitters Bold Check Blazer',
+        imageUrl: 'https://s7g10.scene7.com/is/image/UrbanOutfittersEU/0115433455666_060_b?$xlarge$&hei=900&qlt=80&fit=constrain',
+        price: 59
+      },
+      {
+        id: 14,
+        name: 'Lulus Miss Punctuality Floral Print Blazer',
+        imageUrl: 'https://www.lulus.com/images/product/xlarge/4261370_791912.jpg',
+        price: 57
+      },
+      {
+        id: 15,
+        name: 'Nike Water Repellent Running Jacket',
+        imageUrl: 'https://slimages.macysassets.com/is/image/MCY/products/5/optimized/9870965_fpx.tif?op_sharpen=1&wid=500&hei=613&fit=fit,1&$filtersm$',
+        price: 90
+      },
+      {
+        id: 16,
+        name: 'PacSun Tan Sherpa Jacket',
+        imageUrl: 'https://www.pacsun.com/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw2ce7c803/product_images/0760486590024NEW_01_025.jpg?sw=690&sh=1070&sm=fit',
+        price: 190
+      },
+      {
+        id: 17,
+        name: 'Tobi Hooded Moto Jacket',
+        imageUrl: 'https://cdn.tobi.com/product_images/lg/1/black-kayliegh-hooded-moto-jacket.jpg',
+        price: 53
+      }
+    ]
+  },
+  jeans: {
+    id: 3,
+    title: 'Jeans',
+    routeName: 'jeans',
+    items: [
+      {
         id: 18,
-        name: 'Black Jean Shearling',
-        imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
-        price: 125
+        name: 'BDG High-Waisted Mom Jean',
+        imageUrl: 'https://s7d5.scene7.com/is/image/UrbanOutfitters/47678354_093_f?$xlarge$&hei=900&qlt=80&fit=constrain',
+        price: 59
       },
       {
         id: 19,
-        name: 'Blue Jean Jacket',
-        imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-        price: 90
+        name: 'Levis 501 High Rise Skinny',
+        imageUrl: 'https://www.bootbarn.com/on/demandware.static/-/Sites-master-product-catalog-shp/default/dwd1991fbe/images/821/2000288821_400_P1.JPG',
+        price: 98
       },
       {
         id: 20,
-        name: 'Grey Jean Jacket',
-        imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
-        price: 90
+        name: 'Madewell Mid Rise Raw Hem Skinny',
+        imageUrl: 'https://www.hautelookcdn.com/products/L9934/large/11198579.jpg',
+        price: 69
       },
       {
         id: 21,
-        name: 'Brown Shearling',
-        imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
-        price: 165
+        name: 'Levis 721 High Rise Sculpting Skinny',
+        imageUrl: 'https://lsco.scene7.com/is/image/lsco/Levis/clothing/188820047-front-pdp-27.jpg?$grid_desktop_bottoms$',
+        price: 98
       },
       {
         id: 22,
-        name: 'Tan Trench',
-        imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
-        price: 185
+        name: 'American Eagle Next Level High Waisted Jegging',
+        imageUrl: 'https://s7d2.scene7.com/is/image/aeo/0433_1883_938_of?$PDP-1910L$',
+        price: 49
       }
     ]
   },
-  womens: {
+  hats: {
     id: 4,
-    title: 'Womens',
-    routeName: 'womens',
+    title: 'Hats',
+    routeName: 'hats',
     items: [
       {
         id: 23,
-        name: 'Blue Tanktop',
-        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
-        price: 25
+        name: 'Monroe Rancher',
+        imageUrl: 'https://i.pinimg.com/originals/72/69/28/726928467cd0bcee993cc82b2a042280.jpg',
+        price: 112
       },
       {
         id: 24,
-        name: 'Floral Blouse',
-        imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
-        price: 20
+        name: 'Straw Fedora',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0431/5161/products/jani-straw-fedora-natural-straw-hats_2000x.jpg?v=1583259136',
+        price: 54
       },
       {
         id: 25,
-        name: 'Floral Dress',
-        imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
-        price: 80
+        name: 'Floppy Fedora Mustard',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0431/5161/products/hannah-floppy-fedora-mustard-felt-hats.jpg?v=1581617685',
+        price: 88
       },
       {
         id: 26,
-        name: 'Red Dots Dress',
-        imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
-        price: 80
-      },
-      {
-        id: 27,
-        name: 'Striped Sweater',
-        imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
-        price: 45
-      },
-      {
-        id: 28,
-        name: 'Yellow Track Suit',
-        imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
-        price: 135
-      },
-      {
-        id: 29,
-        name: 'White Blouse',
-        imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
-        price: 20
+        name: 'Annabella Floppy Hat Black',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0431/5161/products/annabella-floppy-hat-black-felt-hats-2_2000x.jpg?v=1581616870',
+        price: 64
       }
     ]
   },
-  mens: {
+  accessories: {
     id: 5,
-    title: 'Mens',
-    routeName: 'mens',
+    title: 'Accessories',
+    routeName: 'accessories',
     items: [
       {
         id: 30,
-        name: 'Camo Down Vest',
-        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-        price: 325
+        name: 'Paul Valentine Coffe Mesh Watch',
+        imageUrl: 'https://i.pinimg.com/564x/21/6b/71/216b7158b9df64f6ef437de8a77d7faa.jpg',
+        price: 129
       },
       {
         id: 31,
-        name: 'Floral T-shirt',
-        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-        price: 20
+        name: '4pcs Vintage Bracelets',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0040/9409/9502/products/4e609b36-9a43-4055-bf82-399c087e7852.jpg?v=1572132513',
+        price: 19
       },
       {
         id: 32,
-        name: 'Black & White Longsleeve',
-        imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
-        price: 25
+        name: 'Free People Bandana Scarf Pony',
+        imageUrl: 'https://s7d5.scene7.com/is/image/FreePeople/45917267_013_a?$a15-pdp-detail-shot$&hei=900&qlt=80&fit=constrain',
+        price: 12
       },
       {
         id: 33,
-        name: 'Pink T-shirt',
-        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
-        price: 25
+        name: 'Straw Circle Crossbody Bag',
+        imageUrl: 'https://cdn.shopify.com/s/files/1/0431/5161/products/straw-circle-crossbody-bag-bag.jpg?v=1580582215',
+        price: 56
+      }
+    ]
+  },
+  shoes: {
+    id: 6,
+    title: 'Shoes',
+    routeName: 'shoes',
+    items: [
+      {
+        id: 30,
+        name: 'Steve Madden Platform Sandals',
+        imageUrl: 'https://di2ponv0v5otw.cloudfront.net/posts/2019/09/11/5d78a856ffc2d4658e76739c/m_5d78a87b9ed36dc72a72d6d6.jpg',
+        price: 71
       },
       {
-        id: 34,
-        name: 'Jean Long Sleeve',
-        imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
-        price: 40
+        id: 31,
+        name: 'Nike Air Force 1 Trainers ',
+        imageUrl: 'https://i.pinimg.com/564x/14/94/a7/1494a7f23f08401847666666090dd2d7.jpg',
+        price: 90
       },
       {
-        id: 35,
-        name: 'Burgundy T-shirt',
-        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
-        price: 25
+        id: 32,
+        name: 'Bow Espadrilles',
+        imageUrl: 'https://i.pinimg.com/564x/d2/6c/ea/d26cea6e6456e542761918448847df6f.jpg',
+        price: 29
+      },
+      {
+        id: 33,
+        name: 'Puma Carina Sneakers',
+        imageUrl: 'https://i.pinimg.com/564x/92/da/eb/92daebe05e510acd856fce69bfa583aa.jpg',
+        price: 59
       }
     ]
   }
