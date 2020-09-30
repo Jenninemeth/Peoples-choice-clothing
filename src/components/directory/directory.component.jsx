@@ -9,10 +9,16 @@ import MenuItem from '../menu-item/menu-item.component';
 import './directory.styles.scss';
 
 const Directory = ({ sections }) => (
-  <div className='directory-menu'>
-    {sections.map(({id, ...otherSectionProps }) => (
-      <MenuItem key={id} {...otherSectionProps} />
-    ))}
+  <div className='directory-title'>
+    <div className='directory-content'>
+      <h1 className='head-title'>Endless styles for your best fit</h1>
+      <span className='subheader'>With clothing hand selected by popluar demand, you’ll always look and feel your best. Quality clothes, delivered right to your door.</span>
+    </div>
+    <div className='directory-menu'>
+      {sections.map(({id, ...otherSectionProps }) => (
+        <MenuItem key={id} {...otherSectionProps} />
+      ))}
+    </div>
   </div>
 );
  

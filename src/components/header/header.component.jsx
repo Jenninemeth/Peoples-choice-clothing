@@ -9,6 +9,7 @@ import CartDropDown from '../cart-dropdown/cart-dropdown.component';
 import { selectCartHidden } from '../../redux/cart/cart.selectors';
 import { selectCurrentUser } from '../../redux/user/user.selectors';
 
+import { ReactComponent as Icon } from '../../assets/icon.svg';
 import { ReactComponent as Logo } from '../../assets/logo.svg';
 
 import './header.styles.scss';
@@ -16,6 +17,7 @@ import './header.styles.scss';
 const Header = ({ currentUser, hidden }) => (
     <div className='header'>
         <Link className='logo-container' to="/">
+            <Icon className='icon' />
             <Logo className='logo' />
         </Link>
         <div className='options'>

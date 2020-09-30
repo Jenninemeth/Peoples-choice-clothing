@@ -1,4 +1,8 @@
 .collections-overview {
     display: flex;
     flex-direction: column;
+
+    .title {
+        font-family: 'Arima Madurai';
+    }
 }
