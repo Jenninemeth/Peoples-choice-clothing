@@ -6,14 +6,14 @@ const StripeCheckoutButton = ({ price }) => {
     const publishableKey = 'pk_test_mqO8k6iBmw29cReFoxRIE3WW00Vg492hcp';
 
     const onToken = token => { 
-        console.log(token);
+        
         alert('Payment Successful');
     }
 
     return (
         <StripeCheckout 
             label='Pay Now'
-            name='CRWN Clothing Ltd.'
+            name='Chioce Clothing Ltd.'
             billingAddress
             shippingAddress
             image='https://svgshare.com/i/CUz.svg'
