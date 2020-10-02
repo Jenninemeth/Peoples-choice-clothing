@@ -1,8 +1,22 @@
 .collections-overview {
     display: flex;
     flex-direction: column;
+    background-color: white;
+    justify-content: center;
 
     .title {
+        margin: auto;
+        padding: 5px;
         font-family: 'Arima Madurai';
+        font-size: 38px;
+        background-image: linear-gradient(120deg, #E4B16A 0%, #ffd75f 100%);
+        background-repeat: no-repeat;
+        background-size: 100% 0.3em;
+        background-position: 0 68%;
+        transition: background-size 0.25s ease-in;
+
+        &:hover {
+            background-size: 100% 38%;
+        }
     }
 }

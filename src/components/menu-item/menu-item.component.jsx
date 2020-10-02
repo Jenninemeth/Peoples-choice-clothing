@@ -4,7 +4,7 @@ import CustomButton from '../custom-button/custom-button.component';
 
 import './menu-item.styles.scss';
 
-const MenuItem = ({ title, imageUrl, size, history, linkUrl, match, message, span }) => (
+const MenuItem = ({ title, imageUrl, size, history, linkUrl, match,  span }) => (
     <div 
         className={`${size} menu-item`} 
         onClick={() => history.push(`${match.url}${linkUrl}`)}

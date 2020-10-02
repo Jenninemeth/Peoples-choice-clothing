@@ -39,11 +39,13 @@
               font-weight: 500;
               font-size: 40px;
               color: #4F3C75;
+              padding-right: 5px;
               background-image: linear-gradient(120deg, #E4B16A 0%, #ffd75f 100%);
               background-repeat: no-repeat;
               background-size: 100% 0.3em;
               background-position: 0 68%;
               transition: background-size 0.25s ease-in;
+              
               &:hover {
                 background-size: 100% 38%;
               }

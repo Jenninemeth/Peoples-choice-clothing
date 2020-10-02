@@ -2,18 +2,26 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
-    margin: auto;
+    height: 100%;
     max-width: 1600px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    padding: 0px 80px;
+    justify-content: center;
+    padding-left: 5vw;
+    padding-right: 3vw;
   
     .title {
       font-family: 'Arima Madurai';
       font-size: 38px;
       margin: 0 auto 30px;
+      background-image: linear-gradient(120deg, #E4B16A 0%, #ffd75f 100%);
+      background-repeat: no-repeat;
+      background-size: 100% 0.3em;
+      background-position: 0 68%;
+      transition: background-size 0.25s ease-in;
+
+      &:hover {
+        background-size: 100% 38%;
+      }
     }
   
     .items {

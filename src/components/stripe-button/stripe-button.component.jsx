@@ -16,7 +16,7 @@ const StripeCheckoutButton = ({ price }) => {
             name='Chioce Clothing Ltd.'
             billingAddress
             shippingAddress
-            image='https://svgshare.com/i/CUz.svg'
+            image='https://live.staticflickr.com/65535/50405502868_5a6affed43_t.jpg'
             description={`Your total is $${price}`}
             amount={priceForStripe}
             panelLabel='Pay Now'
